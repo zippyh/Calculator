@@ -9,12 +9,16 @@ public class Calculator {
         System.out.println("Enter two numbers:");
         x = scan.nextInt();
         y = scan.nextInt();
-        System.out.println("Would you like to add of subtract the numbers?");
+        System.out.println("Would you like to add, subtract, multiply, or divide the numbers?");
         operation = scan.nextLine();
         if(operation == "add") {
             System.out.println(x + y);
         } else if(operation == "subtract") {
             System.out.println(x - y);
+        } else if(operation == "multiply") {
+            System.out.println(x * y);
+        } else if(operation == "divide") {
+            System.out.println(x / y);
         }
     }
     
