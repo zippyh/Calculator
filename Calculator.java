@@ -16,15 +16,7 @@ public class Calculator {
             System.out.println(x + y);
         } else if(operation.equals("subtract")) {
             System.out.println(x - y);
-        } else if(operation.equals("multiply")) {
-            System.out.println(x * y);
-        } else if(operation.equals("divide")) {
-            if(y == 0.0) {
-                System.out.println("Error: Divide by zero");
-            } else {
-                System.out.println(x / y);
-            }
-        }
+        } 
     }
     
 }
