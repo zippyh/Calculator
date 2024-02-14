@@ -16,7 +16,11 @@ public class Calculator {
             System.out.println(x + y);
         } else if(operation.equals("subtract")) {
             System.out.println(x - y);
-        } 
+        } else if(operation.equals("multiply")) {
+            System.out.println(x * y);
+        } else if(operation.equals("divide")) {
+            System.out.println(x / y);
+        }
     }
     
 }
