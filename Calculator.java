@@ -19,7 +19,11 @@ public class Calculator {
         } else if(operation.equals("multiply")) {
             System.out.println(x * y);
         } else if(operation.equals("divide")) {
-            System.out.println(x / y);
+            if(y == 0.0) {
+                System.out.println("Error: Divide by zero");
+            } else {
+                System.out.println(x / y);
+            }
         }
     }
     
